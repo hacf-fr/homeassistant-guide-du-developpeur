@@ -41,6 +41,14 @@ Mais aussi :
 
 ## Préparer son environnement
 
+## Participer aux projets
+
+### Fork d'un projet
+
+### Issue
+
+### Pull Request
+
 ## Les ressources
 
 - La [documentation développeur](https://developers.home-assistant.io/) chez Home Assistant
