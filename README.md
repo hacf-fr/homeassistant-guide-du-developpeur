@@ -22,24 +22,11 @@ Il y a deux environnements distincts :
 
 Suivant ce que vous allez travailler, vous n'aurez pas besoin des mêmes langages.
 
-### Le backend
+## Le développement
 
-Pour cet environnement, vous devrez avoir/travailler les compétences suivantes :
+- [Développer en backend](./FRONTEND.md)
 
-- Développement avec le langage Python
-
-### Le frontend
-
-Pour cet environnement, vous devrez avoir/travailler les compétences suivantes :
-
-- Le développement avec Javascript ou Truescript
-- Le développement avec HTML et CSS
-
-Mais aussi :
-
-- La bibliothèque [Polymer Project](https://www.polymer-project.org/)
-
-## Préparer son environnement
+- [Développer en frontend](./BACKEND.md)
 
 ## Participer aux projets
 
