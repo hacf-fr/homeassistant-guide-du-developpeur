@@ -1,11 +1,11 @@
 # Home Assistant Developper Howto pour les Froggies
 
-- [La boîte à outils](#La_Boîte_à_outils)
-- [Les environnements](#Les_environnements)
-  - [Le backend](#Le_backend)
-  - [Le frontend](#Le_frontend)
-- [Préparer son environnement](#Préparer_son_environnement)
-- [Les ressources](#Les_ressources)
+- [La boîte à outils](#La-Boîte-à-outils)
+- [Les environnements](#Les-environnements)
+  - [Le backend](#Le-backend)
+  - [Le frontend](#Le-frontend)
+- [Préparer son environnement](#Préparer-son-environnement)
+- [Les ressources](#Les-ressources)
 
 ## La boîte à outils
 
