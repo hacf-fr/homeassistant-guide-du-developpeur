@@ -24,9 +24,9 @@ Suivant ce que vous allez travailler, vous n'aurez pas besoin des mêmes langage
 
 ## Le développement
 
-- [Développer en backend](./FRONTEND.md)
+- [Développer en backend](./BACKEND.md)
 
-- [Développer en frontend](./BACKEND.md)
+- [Développer en frontend](./FRONTEND.md)
 
 ## Participer aux projets
 
