@@ -24,7 +24,7 @@
 
 **Recommandés pour le développement de modules Python**:
 
-- [pyenv](https://github.com/pyenv/pyenv) pour gérer les différentes versions Python à utilsiser sur votre système de développement.
+- [pyenv](https://github.com/pyenv/pyenv) pour gérer les différentes versions Python à utiliser sur votre système de développement.
 - [pipx](https://pipxproject.github.io/pipx/) pour installer des utilitaires Python dans des environnements isolés.
 - [pre-commit](https://pre-commit.com/) pour assurer la qualité de vos modifications avant de les valider dans votre dépôt (commit)
 
