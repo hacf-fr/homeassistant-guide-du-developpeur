@@ -9,7 +9,7 @@ Pour cet environnement, il vous faut les compétences suivantes :
 
 Mais aussi :
 
-- La bibliothèque [Polymer Project](https://www.polymer-project.org/)
+- La bibliothèque [LitElement](https://lit-element.polymer-project.org/) du projet [Polymer Project](https://www.polymer-project.org/)
 - Le langage de templating [Jinja](https://jinja.palletsprojects.com/en/2.11.x/)
 
 ## Préparer son environnement
