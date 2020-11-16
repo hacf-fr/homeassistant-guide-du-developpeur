@@ -23,4 +23,4 @@ Mais aussi :
 ## Ressources
 
 - [Jinja](https://jinja.palletsprojects.com/en/2.11.x/)
-- [Polymer Project](https://www.polymer-project.org/)
+- [LitElement](https://lit-element.polymer-project.org/) du projet [Polymer Project](https://www.polymer-project.org/)
