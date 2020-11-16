@@ -20,7 +20,7 @@
 - [Visual Studio Code (VSC)](https://code.visualstudio.com/). Tout autre editeur peut convenir.
   VSC offre plusieurs addons qui facilitent le développemnent avec Home Assistant.
 - L'Addon [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) pour VSC.
-  Il permet d'utiliser les contneurs de développement via Docker.
+  Il permet d'utiliser les conteneurs de développement via Docker.
 
 **Recommandés pour le développement de modules Python**:
 
