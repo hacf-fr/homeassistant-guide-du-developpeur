@@ -1,4 +1,4 @@
-# Home Assistant Development - Howto pour les Froggies
+# Home Assistant - Guide du développeur
 
 - [La boîte à outils](#La-Boîte-à-outils)
 - [Les environnements](#Les-environnements)
