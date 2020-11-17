@@ -6,19 +6,51 @@ Pour vous aider à vous familiariser avec GitHub, vous pouvez consulter ce [peti
 
 Ne soyez pas effrayé par la manipulation en ligne de commande, vous verrez que vous pourrez vous en affranchir dans Visual Studio Code (mais les bases sont à connaître!!!).
 
-Voyons quand même quelques concepts indispensables :
+Voyons quand même quelques concepts indispensables..
 
-## Dupliquer un projet (Fork)
+## Méthodologie
 
-Le `fork` est une copie d'un projet (autre que le votre bien souvent) en gardant toujours la référence de l'original.
+- Vous voulez soumettre un bug ou faire une demande d'évolution, dans ce cas il vous faut soumettre une `issue` sur le dépôt principal.
 
-L'idée ici est surtout de copier un projet sur son propre dépôt Git, de travailler tranquillement dessus, et de pouvoir transmettre vos modifications/corrections au dépôt d'origine via des `pull request`.
+- Vous voulez contribuer au développement (correction de bug, ajout de fonctionnalité), il vous faut alors suivre ces étapes :
+
+  1. Le `Fork`, qui est la duplication de la branche principale (`upstream`) du dépôt du projet sur votre dépôt personnel GitHub.
+
+  1. Le `Clone`, qui est la copie locale (sur votre PC) de votre dépôt GitHub.
+
+  1. La branche de développement, qui est une branche sur votre dépôt (`origin`) et propre à vos modifications.
+
+  1. Les `Commit`, qui sont les différentes modifications que vous apportez. _Ces commits doivent être le plus spécialisé possible, c'est-à-dire traiter une seule modification et non une dizaine_.
+
+  1. La `Pull Request`, qui sera la demande d'intégration de vos modifications auprès de la branche principale.
+
+  1. La `Review`, qui sera la révision de vos modifications par l'équipe de développement de la branche principale. Elle peut être amenée à vous demander des modifications, refuser certaines parties, etc
+
+  1. Le `Merge`, qui est la dernière étape et concerne l'intégration définitive de votre `Pull Request` au projet. Cette dernière étape sera du ressort de l'équipe de la branche principale.
+
+## Les dépôts
+
+Les dépôts sont des espaces de stockage spécifiques à un projet. Ce terme n'est pas spécifique à GitHub, vous le retrouverez pour Docker, Maven, etc
+
+En ce qui concerne GitHub, un dépôt est associé à un profil utilisateur ou d'organisation et son adresse sera `https://github.com/`_`profil`_`/`_`projet`_
+
+Vous pouvez avoir plusieurs dépôts de référencés dans votre copie locale. Généralement, le 1er dépôt que vous clonerez sera nommé `origin`. Vous ajouterez la branche principale `upstream` ce qui permettra de visionner les différences, remettre à jour votre base suivant ce dépôt, etc
 
 ## Bug et amélioration (Issue)
 
 Un `issue` est tout aussi l'identification et description d'un bug que la description d'une amélioration souhaitée. Ne pas hésiter à les alimenter, que ce soit sur les projets des autres que du votre.
 
 C'est intimement lié aux `pull request`.
+
+## Dupliquer un projet (Fork)
+
+Le `fork` est une copie d'un projet (autre que le votre bien souvent) en gardant toujours la référence de l'original.
+
+L'idée ici est surtout de copier un projet sur son propre dépôt Git, de travailler tranquillement dessus, et de pouvoir transmettre vos modifications/corrections (`commit`) au dépôt d'origine via des `pull request`.
+
+## Créer un clone local
+
+## Faire des modifications ou ajouts
 
 ## Soumettre un correctif (Pull Request)
 
