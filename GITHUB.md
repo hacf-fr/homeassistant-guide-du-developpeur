@@ -10,7 +10,7 @@ Voyons quand même quelques concepts indispensables..
 
 ## Méthodologie
 
-- Vous voulez soumettre un bug ou faire une demande d'évolution, dans ce cas il vous faut soumettre une `issue` sur la dépôt principal.
+- Vous voulez soumettre un bug ou faire une demande d'évolution, dans ce cas il vous faut soumettre une `issue` sur le dépôt principal.
 
 - Vous voulez contribuer au développement (correction de bug, ajout de fonctionnalité), il vous faut alors suivre ces étapes :
 
