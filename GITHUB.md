@@ -22,7 +22,7 @@ Voyons quand même quelques concepts indispensables..
 
   1. Les `Commit`, qui sont les différentes modifications que vous apportez. _Ces commits doivent être le plus spécialisé possible, c'est-à-dire traiter une seule modification et non une dizaine_.
 
-  1. Le `Pull Request`, qui sera la demande d'intégration de vos modifications auprès de la branche principale.
+  1. La `Pull Request`, qui sera la demande d'intégration de vos modifications auprès de la branche principale.
 
   1. La `Review`, qui sera la révision de vos modifications par l'équipe de développement de la branche principale. Elle peut être amenée à vous demander des modifications, refuser certaines parties, etc
 
