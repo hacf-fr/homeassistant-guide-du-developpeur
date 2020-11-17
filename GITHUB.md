@@ -34,7 +34,7 @@ Les dépôts sont des espaces de stockage spécifiques à un projet. Ce terme n'
 
 En ce qui concerne GitHub, un dépôt est associé à un profil utilisateur ou d'organisation et son adresse sera `https://github.com/`_`profil`_`/`_`projet`_
 
-Vous pouvez avoir plusieurs dépôt de référencé dans votre copie local. Généralement, le 1er dépôt que vous clonez sera nommé `origin`. Vous ajouterez la branche principale `upstream` ce qui permettra de visionner les différences, remettre à jour votre base suivant ce dépôt, etc
+Vous pouvez avoir plusieurs dépôts de référencés dans votre copie locale. Généralement, le 1er dépôt que vous clonerez sera nommé `origin`. Vous ajouterez la branche principale `upstream` ce qui permettra de visionner les différences, remettre à jour votre base suivant ce dépôt, etc
 
 ## Bug et amélioration (Issue)
 
