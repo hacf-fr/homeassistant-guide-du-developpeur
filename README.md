@@ -9,9 +9,24 @@
 
 ## La boîte à outils
 
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [Docker](https://www.docker.com/)
+**Obligatoires**:
+
+- [git](https://git-scm.com/book/fr/v2) pour la gestion de version
 - Un compte [Github](https://github.com/)
+
+**Recommandés**:
+
+- [Docker](https://www.docker.com/) pour tester vos contributions dans un environement local et dédié (conteneur).
+- [Visual Studio Code (VSC)](https://code.visualstudio.com/). Tout autre editeur peut convenir.
+  VSC offre plusieurs addons qui facilitent le développemnent avec Home Assistant.
+- L'Addon [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) pour VSC.
+  Il permet d'utiliser les conteneurs de développement via Docker.
+
+**Recommandés pour le développement de modules Python**:
+
+- [pyenv](https://github.com/pyenv/pyenv) pour gérer les différentes versions Python à utiliser sur votre système de développement.
+- [pipx](https://pipxproject.github.io/pipx/) pour installer des utilitaires Python dans des environnements isolés.
+- [pre-commit](https://pre-commit.com/) pour assurer la qualité de vos modifications avant de les valider dans votre dépôt (commit)
 
 ## Participer aux projets
 
