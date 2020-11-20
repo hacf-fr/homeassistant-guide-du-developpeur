@@ -1,13 +1,28 @@
 # Home Assistant - Guide du développeur
 
 - [La boîte à outils](#La-Boîte-à-outils)
+- [Participer aux projets](#Participer-aux-projets)
 - [Les environnements](#Les-environnements)
   - [Le backend](#Le-backend)
   - [Le frontend](#Le-frontend)
 - [Préparer son environnement](#Préparer-son-environnement)
 - [Les ressources](#Les-ressources)
 
+## Présentation
+
+Ce guide a pour vocation de présenter le développement de composants de Home Assistant.
+
+Pour ce faire nous présenterons indépendamment chacun des environnements de développement :
+
+- le backend qui concerne les intégrations (entités/sensors)
+
+- le frontend qui concerne l'interface utilisateur (Lovelace et ses composants)
+
 ## La boîte à outils
+
+Chaque environnement a ses outils spécifiques et seront précisés dans chaque section.
+
+Néanmois voici quelques éléments commun aux deux :
 
 **Obligatoires**:
 
@@ -22,19 +37,13 @@
 - L'Addon [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) pour VSC.
   Il permet d'utiliser les conteneurs de développement via Docker.
 
-**Recommandés pour le développement de modules Python**:
-
-- [pyenv](https://github.com/pyenv/pyenv) pour gérer les différentes versions Python à utiliser sur votre système de développement.
-- [pipx](https://pipxproject.github.io/pipx/) pour installer des utilitaires Python dans des environnements isolés.
-- [pre-commit](https://pre-commit.com/) pour assurer la qualité de vos modifications avant de les valider dans votre dépôt (commit)
-
 ## Participer aux projets
 
 Avant de présenter plus en avant le développement sous Home Assistant, nous allons faire un point sur la gestion d'un projet (un développement).
 
 Si vous êtes familier avec Gitub, vous pouvez passer ce chapitre. Pour les autres ...
 
-- => [Travailler avec GitHub](./GITHUB.md)
+- [Travailler avec GitHub](./GITHUB.md)
 
 ## Les environnements
 
@@ -45,9 +54,9 @@ Il y a deux environnements distincts :
 
 Suivant ce que vous allez travailler, vous n'aurez pas besoin des mêmes langages, compétences et ressources.
 
-- => [Développer en backend](./BACKEND.md)
+- [Développer en backend](./BACKEND.md)
 
-- => [Développer en frontend](./FRONTEND.md)
+- [Développer en frontend](./FRONTEND.md)
 
 ## Les ressources
 
