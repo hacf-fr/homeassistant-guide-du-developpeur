@@ -41,7 +41,7 @@ Néanmois voici quelques éléments commun aux deux :
 
 Avant de présenter plus en avant le développement sous Home Assistant, nous allons faire un point sur la gestion d'un projet (un développement).
 
-Si vous êtes familier avec Gitub, vous pouvez passer ce chapitre. Pour les autres ...
+Si vous êtes familier avec GitHub, vous pouvez passer ce chapitre. Pour les autres ...
 
 - [Travailler avec GitHub](./GITHUB.md)
 
