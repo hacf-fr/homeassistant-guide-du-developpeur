@@ -22,7 +22,7 @@ Pour ce faire nous présenterons indépendamment chacun des environnements de d�
 
 Chaque environnement a ses outils spécifiques et seront précisés dans chaque section.
 
-Néanmois voici quelques éléments commun aux deux :
+Néanmoins voici quelques éléments commun aux deux :
 
 **Obligatoires**:
 
