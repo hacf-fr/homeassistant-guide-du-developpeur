@@ -20,12 +20,18 @@ Peu importe votre environnement (Linux, Mac ou Windows), vous devrez :
 
   - Docker Desktop pour Windows et Mac (attention une archive d'installation par système)
 
-  - le service Docker pour Linux, via votre gestionnaire de paquet de votre distrobution (yum, apt, ...)
+  - le service Docker pour Linux, via votre gestionnaire de paquet de votre distribution (yum, apt, ...)
 
 - Installer [Visual Studio Code](https://code.visualstudio.com/Download)
 
 ### Prérequis
 
+A VENIR
+
 ### Clone du projet
 
+A VENIR
+
 ### VSCode et ses plugins
+
+A VENIR
