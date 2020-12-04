@@ -26,7 +26,7 @@ Néanmois voici quelques éléments commun aux deux :
 
 **Obligatoires**:
 
-- [git](https://git-scm.com/book/fr/v2) pour la gestion de version
+- [git](https://git-scm.com/book/fr/v2) pour la gestion de version.
 - Un compte [Github](https://github.com/)
 
 **Recommandés**:
