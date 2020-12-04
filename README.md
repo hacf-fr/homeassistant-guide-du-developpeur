@@ -22,7 +22,7 @@ Pour ce faire nous présenterons indépendamment chacun des environnements de d�
 
 Chaque environnement a ses outils spécifiques et seront précisés dans chaque section.
 
-Néanmois voici quelques éléments commun aux deux :
+Néanmoins voici quelques éléments commun aux deux :
 
 **Obligatoires**:
 
@@ -43,7 +43,7 @@ Avant de présenter plus en avant le développement sous Home Assistant, nous al
 
 Si vous êtes familier avec GitHub, vous pouvez passer ce chapitre. Pour les autres ...
 
-- [Travailler avec GitHub](./GITHUB.md)
+- [Travailler avec GitHub](./GitHub.md)
 
 ## Les environnements
 
@@ -54,9 +54,9 @@ Il y a deux environnements distincts :
 
 Suivant ce que vous allez travailler, vous n'aurez pas besoin des mêmes langages, compétences et ressources.
 
-- [Développer en backend](./BACKEND.md)
+- [Développer en backend](./Backend.md)
 
-- [Développer en frontend](./FRONTEND.md)
+- [Développer en frontend](./Frontend.md)
 
 ## Les ressources
 
