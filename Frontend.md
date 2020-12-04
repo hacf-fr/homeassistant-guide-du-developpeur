@@ -16,7 +16,9 @@ Mais aussi :
 
 ## Préparer son environnement
 
-A VENIR
+- VSCode et ses extensions
+- node.js et npm
+- boilerplate
 
 ## Ressources
 
