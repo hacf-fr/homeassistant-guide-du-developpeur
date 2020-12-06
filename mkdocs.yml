@@ -1,0 +1,80 @@
+# Project information
+site_name: Guide du développeur Home Assistant
+site_url: "https://hacf-fr.github.io/homeassistant-guide-du-developpeur/"
+site_description: "Un guide en français pour ceux qui veulent contribuer au code de Home Assistant"
+site_author: "HACF"
+copyright: "Copyright 2020 - HACF. Creative Commons Zero v1.0 Universal."
+
+# Repository
+repo_url: "https://github.com/hacf-fr/homeassistant-guide-du-developpeur/"
+edit_uri: ""
+
+# Theme
+theme:
+  name: material
+  language: fr
+  favicon: images/favicon-32x32.png
+  palette:
+    scheme: preference
+    primary: white
+    accent: red
+  logo: "https://hacf.fr/wp-content/uploads/logo@2x.png"
+  features:
+    - navigation.tabs
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: "https://github.com/hacf-fr"
+      name: "L'organisation HACF sur GitHub"
+    - icon: fontawesome/brands/discourse
+      link: "https://forum.hacf.fr/"
+      name: "Le forum HACF"
+    - icon: fontawesome/brands/discord
+      link: "https://discord.gg/PaZFEjX"
+      name: "Le Discord HACF"
+    - icon: fontawesome/brands/wordpress
+      link: "https://www.hacf.fr"
+      name: "Le site de HACF"
+    - icon: fontawesome/brands/twitter
+      link: "https://twitter.com/hacf_fr"
+      name: "HACF sur Twitter"
+    - icon: fontawesome/brands/facebook
+      link: "https://www.facebook.com/hacf.fr"
+      name: "HACF sur Facebook"
+    - icon: fontawesome/brands/youtube
+      link: "https://www.youtube.com/channel/UCx4cKKRf1GW1AVQhtNU_3iw"
+      name: "HACF sur YouTube"
+    - icon: fontawesome/solid/bookmark
+      link: "https://awesome.hacf.fr"
+      name: "Awesome List: Nos meilleurs liens"
+
+# Plugins
+plugins:
+  - search:
+      lang: fr
+  - simple:
+
+# Extensions
+# pymdownx.slugs.gfm needed to have the same behavior in static generated website
+# and in GitHub for TOC anchor when title have unicode characters.
+#
+# mdx_truly_sane_lists to ensure the rendering of the nested bullet list.
+markdown_extensions:
+  - toc:
+      permalink: true
+      slugify: !!python/name:pymdownx.slugs.gfm
+  - pymdownx.betterem:
+      smart_enable: all
+  - mdx_truly_sane_lists
+
+# The pages to serve
+nav:
+  - "Accueil": README.md
+  - "Le Backend": Backend.md
+  - "Le Frontend": Frontend.md
+  - "GitHub": GitHub.md
+  - "Contribuer": CONTRIBUTING.md
+ 
+
