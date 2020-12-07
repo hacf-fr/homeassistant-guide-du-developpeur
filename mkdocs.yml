@@ -1,6 +1,6 @@
 # Project information
 site_name: Guide du développeur Home Assistant
-site_url: "https://hacf-fr.github.io/homeassistant-guide-du-developpeur/"
+site_url: "https://developpeurs.hacf.fr/"
 site_description: "Un guide en français pour ceux qui veulent contribuer au code de Home Assistant"
 site_author: "HACF"
 copyright: "Copyright 2020 - HACF. Creative Commons Zero v1.0 Universal."
