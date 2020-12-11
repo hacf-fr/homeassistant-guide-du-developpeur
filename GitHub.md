@@ -52,7 +52,7 @@ C'est intimement lié aux `pull request`.
 
 ## La méthode en détail
 
-![Le process Github](docs/images/github-process.png)
+![Le process GitHub](docs/images/github-process.png)
 
 ### Dupliquer un projet (Fork)
 
