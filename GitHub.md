@@ -66,7 +66,7 @@ Comment faire :
 
 - Sur [Github](https://github.com/), allez sur le dépôt Git que vous souhaitez forker.
 - Dans le coin en haut à droite de ce dépôt, cliquez sur `Fork`.
-- Ce dépôt doit apparaitre sur votre Github personnel.
+- Ce dépôt doit apparaitre sur votre GitHub personnel.
 
 ## Créer un clone local
 
