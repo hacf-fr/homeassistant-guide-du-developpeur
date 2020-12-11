@@ -206,7 +206,7 @@ Comment faire :
   git push origin main
   ```
 
-- mettez à jour votre branche de travail si besoin (pas nécessaire si vous créer une nouvelle branche depuis main) :
+- Mettez à jour votre branche de travail si besoin (pas nécessaire si vous créez une nouvelle branche depuis `main`) :
 
   ```git
   git checkout <newBranch>
