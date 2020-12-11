@@ -163,7 +163,7 @@ C'est l'étape #11 du schéma.
 
 Enfin un `pull request` est une proposition de correction ou modification du projet, sous forme de code source ou autres fichiers (images, etc).
 
-Cette démarche est à faire via Github.
+Cette démarche est à faire via GitHub.
 
 Comment faire :
 
