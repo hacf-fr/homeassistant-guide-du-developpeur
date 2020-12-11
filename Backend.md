@@ -77,8 +77,7 @@ et installer les extensions préconnisés pour VSC par le développeur. Vous ave
 
 Pour lancer l'instance d'Home Assistant dans le conteneur, allez dans VSC,
 menu `Terminal`/ `Exécuter la tâches` et choisissez `Preview`. Le serveur
-<!-- markdown-link-check-disable -->
-Home Assistant va se lancer et sera disponible à l'adresse http://localhost:8123.
+<!-- markdown-link-check-disable -->Home Assistant va se lancer et sera disponible à l'adresse http://localhost:8123.
 <!-- markdown-link-check-enable -->
 
 Vous pourrez relancer la tâches après avoir modifier le code,
