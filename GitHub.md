@@ -167,7 +167,7 @@ Cette démarche est à faire via Github.
 
 Comment faire :
 
-- Connectez vous sur votre Github
+- Connectez vous sur votre GitHub
 - Allez dans le dépôt que vous avez forké
 - Cliquez sur l'onglet `Pull Requests`
 - Puis sur le bouton vert `New pull request` à droite
