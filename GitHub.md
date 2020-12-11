@@ -210,7 +210,7 @@ Comment faire :
 
   ```git
   git checkout <newBranch>
-  git rebase master
+  git rebase main
   ```
 
 ## Conclusion
