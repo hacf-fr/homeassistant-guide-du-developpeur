@@ -115,7 +115,7 @@ Comment faire :
 
 C'est l'étape #4 & #5 du schéma.
 
-Les modifications sont les `commit`. Le principe au sujet des `commit` est de les faire petit, lié à une correction ou un ajout minimaliste.
+Les modifications sont les `commit`. Le principe au sujet des `commit` est de les faire petits, liés à une correction ou un ajout minimaliste.
 
 Comment faire :
 
