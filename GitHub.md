@@ -140,7 +140,7 @@ Comment faire :
 - Sauvegarder vos modifications :
 
   ```git
-  git commit -m <message de commit>
+  git commit -m "<message de commit>"
   ```
 
 ## Mettre à jour votre dépôt distant
