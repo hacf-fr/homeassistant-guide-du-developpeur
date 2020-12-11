@@ -75,9 +75,10 @@ en cliquant sur le bouton vert en bas à gauce et choisir `Remote-Containers: Re
 La première fois VSC va créer et lancer le conteneur (cela peut prendre du temps)
 et installer les extensions préconnisés pour VSC par le développeur. Vous avez alors un environnement isolé et préconfiguré.
 
+<!-- markdown-link-check-disable -->
 Pour lancer l'instance d'Home Assistant dans le conteneur, allez dans VSC,
-menu `Terminal`/ `Exécuter la tâches` et choisissez `Preview`. Le serveur
-<!-- markdown-link-check-disable -->Home Assistant va se lancer et sera disponible à l'adresse http://localhost:8123.
+menu `Terminal`/ `Exécuter la tâches` et choisissez `Preview`.
+Le serveur Home Assistant va se lancer et sera disponible à l'adresse http://localhost:8123.
 <!-- markdown-link-check-enable -->
 
 Vous pourrez relancer la tâches après avoir modifier le code,
