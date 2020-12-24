@@ -21,6 +21,7 @@ theme:
   logo: "https://hacf.fr/wp-content/uploads/logo@2x.png"
   features:
     - navigation.tabs
+    - toc.integrate
 
 # Customization
 extra:
@@ -72,9 +73,10 @@ markdown_extensions:
 # The pages to serve
 nav:
   - "Accueil": README.md
-  - "Le Backend": Backend.md
-  - "Le Frontend": Frontend.md
-  - "GitHub": GitHub.md
+  - "Documentation":
+    - "Le Backend": Backend.md
+    - "Le Frontend": Frontend.md
+    - "GitHub": GitHub.md
   - "Contribuer": CONTRIBUTING.md
  
 
