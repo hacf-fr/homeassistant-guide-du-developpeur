@@ -50,25 +50,168 @@ Un `issue` est tout aussi l'identification et description d'un bug que la descri
 
 C'est intimement lié aux `pull request`.
 
-## Dupliquer un projet (Fork)
+## La méthode en détail
+
+![Le process GitHub](docs/images/github-process.png)
+
+### Dupliquer un projet (Fork)
+
+C'est l'étape #1 du schéma.
 
 Le `fork` est une copie d'un projet (autre que le votre normalement) en gardant toujours la référence de l'original.
 
 L'idée ici est surtout de copier un projet sur son dépôt Git personnel, de travailler tranquillement dessus, et de pouvoir transmettre vos modifications/corrections (`commit`) au dépôt d'origine via des `pull request`.
 
+Comment faire :
+
+- Sur [GitHub](https://github.com/), allez sur le dépôt Git que vous souhaitez forker.
+- Dans le coin en haut à droite de ce dépôt, cliquez sur `Fork`.
+- Ce dépôt doit apparaitre sur votre GitHub personnel.
+
 ## Créer un clone local
+
+C'est l'étape #2 du schéma.
 
 Une fois le `fork` réalisé sur votre dépôt github personnel, vous devez créer une copie local (sur votre machine) de ce dépôt.
 
+Comment faire :
+
+- Créer un clone de ce nouveau fork :
+
+  ```git
+  git clone https://github.com/<votre-nom-utilisateur-github>/<le-nom-du-fork>
+  ```
+
+- Configurer vos coordonnées :
+
+  ```git
+  git config --local --replace-all user.email "<l'adresse-mail-de-votre-compte-Github>"
+  git config --local --replace-all user.name "<le-nom-utilisé-sur-votre-compte-Github>"
+  ```
+
 C'est sur cette copie locale que vous travaillerez : développer, réaliser des `commit` et les pousser régulièrement sur votre dépôt.
+
+## Travailler sereinement
+
+C'est l'étape #3 du schéma.
+
+La branche `main` **est** une branche **fonctionnelle**. Pour éviter que vos modifications n'entraînent un bug, il faut toujours travailler sur une autre branche que `main`. Vous devez donc créer une branche qui contiendra vos modifications.
+
+Comment faire :
+
+- Placez vous dans le répertoire de votre dépôt local :
+
+  ```shell
+  cd <le-nom-du-fork>
+  ```
+
+- Puis créer votre nouvelle branche :
+
+  ```git
+  git checkout -b <newBranch>
+  ```
 
 ## Faire des modifications ou ajouts
 
-Les modifications sont les `commit`. Le principe au sujet des `commit`est de les faire petit, lié à une correction ou un ajout minimaliste.
+C'est l'étape #4 & #5 du schéma.
+
+Les modifications sont les `commit`. Le principe au sujet des `commit` est de les faire petits, liés à une correction ou un ajout minimaliste.
+
+Comment faire :
+
+- Placez vous dans le répertoire de votre dépôt local :
+
+  ```shell
+  cd <le-nom-du-fork>
+  ```
+
+- Ajouter vos fichiers modifiés à l'index :
+
+  ```git
+  git add <le-fichier-modifié> <un-autre-fichier-modifié>
+  ```
+
+  ou si vous vous voulez prendre toutes vos modifs
+
+  ```git
+  git add .
+  ```
+
+- Sauvegarder vos modifications :
+
+  ```git
+  git commit -m "<message de commit>"
+  ```
+
+## Mettre à jour votre dépôt distant
+
+C'est l'étape #6 & #10 du schéma.
+
+Cette étape permet de mettre à jour votre branche distante avec les modifications de votre branche locale. Elle va être possible grâce à la commande `push`.
+
+Comment faire :
+
+- Pousser vos modifications sur votre dépôt distant :
+
+  ```git
+  git push origin <newBranch>
+  ```
 
 ## Soumettre un correctif (Pull Request)
 
+C'est l'étape #11 du schéma.
+
 Enfin un `pull request` est une proposition de correction ou modification du projet, sous forme de code source ou autres fichiers (images, etc).
+
+Cette démarche est à faire via GitHub.
+
+Comment faire :
+
+- Connectez vous sur votre GitHub
+- Allez dans le dépôt que vous avez forké
+- Cliquez sur l'onglet `Pull Requests`
+- Puis sur le bouton vert `New pull request` à droite
+- Choisissez la branche de votre dépôt en cliquant sur le bouton `compare: main`
+- Puis enfin sur le bouton `Create pull request`
+
+## Mettre à jour votre votre dépôt local depuis le dépôt forké
+
+C'est l'étape #7, #8 & #9 du schéma.
+
+Suite à votre `pull request`, le propriétaire du dépôt forké accepte vos modifications. Pour que ces modifications soit correctement intégrées à votre dépôt local, il faut relier votre dépôt local au dépôt forké.
+
+Comment faire :
+
+- Reliez votre clone local au dépôt d' (étape #7) :
+
+  ```git
+  git remote add upstream <URL du dépôt d'origine>
+  ```
+
+- Vérifiez en tapant la commande :
+
+  ```git
+  git remote -v
+  origin https://github.com/<votre-nom-utilisateur-github>/<le-nom-du-fork> (fetch)
+  origin https://github.com/<votre-nom-utilisateur-github>/<le-nom-du-fork> (push)
+  upstream <URL-du-dépôt-d'origine> (fetch)
+  upstream <URL-du-dépôt-d'origine> (fetch)
+  ```
+
+- Récupérez les modifications sur votre dépôt local (étape #8) :
+
+  ```git
+  git checkout main
+  git pull upstream main
+  git push origin main
+  ```
+
+- Mettez à jour votre branche de travail si besoin (pas nécessaire si vous créez une nouvelle branche depuis `main`) :
+
+  ```git
+  git checkout <newBranch>
+  git rebase main
+  ```
 
 ## Conclusion
 
