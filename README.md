@@ -5,7 +5,6 @@
 - [Les environnements](#Les-environnements)
   - [Le backend](#Le-backend)
   - [Le frontend](#Le-frontend)
-- [Préparer son environnement](#Préparer-son-environnement)
 - [Les ressources](#Les-ressources)
 
 ## Présentation
@@ -26,7 +25,7 @@ Néanmoins voici quelques éléments commun aux deux :
 
 **Obligatoires**:
 
-- [git](https://git-scm.com/book/fr/v2) pour la gestion de version.
+- L'outil [git](https://git-scm.com/book/fr/v2) pour la gestion de version.
 - Un compte [Github](https://github.com/)
 
 **Recommandés**:
@@ -39,7 +38,7 @@ Néanmoins voici quelques éléments commun aux deux :
 
 ## Participer aux projets
 
-Avant de présenter plus en avant le développement sous Home Assistant, nous allons faire un point sur la gestion d'un projet (un développement).
+Avant de présenter plus en avant le développement sous Home Assistant, nous allons faire un point sur la gestion d'un projet (de développement) via GitHub.
 
 Si vous êtes familier avec GitHub, vous pouvez passer ce chapitre. Pour les autres ...
 
@@ -49,10 +48,16 @@ Si vous êtes familier avec GitHub, vous pouvez passer ce chapitre. Pour les aut
 
 Il y a deux environnements distincts :
 
-- Le backend ou le coeur de Home Assistant
-- Le frontend ou l'interface utilisateur
+- Le backend, le coeur de Home Assistant
+- Le frontend, l'interface utilisateur
 
 Suivant ce que vous allez travailler, vous n'aurez pas besoin des mêmes langages, compétences et ressources.
+
+Avant d'attaquer les différents environnements, il vous faut préparer votre environnement.
+
+- [Préparation de votre environnement](./Preparation.md)
+
+Les environnements :
 
 - [Développer en backend](./Backend.md)
 
@@ -62,7 +67,7 @@ Suivant ce que vous allez travailler, vous n'aurez pas besoin des mêmes langage
 
 Ci-dessous un ensemble de ressources qui compléteront votre apprentissage.
 
-- La [documentation développeur](https://developers.home-assistant.io/) chez Home Assistant
+- La [documentation développeur](https://developers.home-assistant.io/) offcielle de Home Assistant
 - La gestion des [flux](https://guides.github.com/introduction/flow/), des [Issues](https://guides.github.com/features/issues/) et des [Pull Request](https://guides.github.com/activities/forking/) (PR) de Github
 - Le template prêt à lemploi [CookieCutter](https://github.com/oncleben31/cookiecutter-homeassistant-custom-component)
 - Les icônes incontournables de [Material Design](https://materialdesignicons.com/)
