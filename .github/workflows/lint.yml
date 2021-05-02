@@ -1,4 +1,4 @@
-name: Lint Awesome List
+name: Links checker
 on:
   push:
     branches:
