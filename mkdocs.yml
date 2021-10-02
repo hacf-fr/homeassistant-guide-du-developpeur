@@ -18,7 +18,7 @@ theme:
     scheme: preference
     primary: white
     accent: red
-  logo: "https://hacf.fr/wp-content/uploads/logo@2x.png"
+  logo: "https://hacf.fr/wp-content/uploads/Assets/HACF-Logo.svg"
   features:
     - navigation.tabs
     - toc.integrate
