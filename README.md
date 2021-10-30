@@ -2,9 +2,7 @@
 
 - [La boîte à outils](#La-Boîte-à-outils)
 - [Participer aux projets](#Participer-aux-projets)
-- [Les environnements](#Les-environnements)
-  - Le backend
-  - Le frontend
+- [Les environnements](#Les-environnements) (Le backend et le frontend)
 - [Préparer son environnement](#Préparer-son-environnement)
 - [Les ressources](#Les-ressources)
 
