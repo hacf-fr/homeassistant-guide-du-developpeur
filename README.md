@@ -20,7 +20,7 @@ Pour ce faire nous présenterons indépendamment chacun des environnements de d�
 
 Chaque environnement a ses outils spécifiques et seront précisés dans chaque section.
 
-Néanmoins voici quelques éléments commun aux deux :
+Néanmoins voici quelques éléments communs aux deux :
 
 **Obligatoires**:
 
@@ -62,5 +62,5 @@ Ci-dessous un ensemble de ressources qui compléteront votre apprentissage.
 
 - La [documentation développeur](https://developers.home-assistant.io/) chez Home Assistant
 - La gestion des [flux](https://guides.github.com/introduction/flow/), des [Issues](https://guides.github.com/features/issues/) et des [Pull Request](https://guides.github.com/activities/forking/) (PR) de Github
-- Le template prêt à lemploi [CookieCutter](https://github.com/oncleben31/cookiecutter-homeassistant-custom-component)
+- Le template prêt à l'emploi [CookieCutter](https://github.com/oncleben31/cookiecutter-homeassistant-custom-component)
 - Les icônes incontournables de [Material Design](https://materialdesignicons.com/)
